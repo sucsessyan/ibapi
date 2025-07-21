@@ -11,14 +11,14 @@ src="http://interactivebrokers.github.io/tws-api/nav_iblogo.png"
 
 ## INSTALL
 
-`go get -u github.com/hadrianl/ibapi`
+`go get -u github.com/sucsessyan/ibapi`
 
 ---
 
 ## USAGE
 
 Implement `IbWrapper` to handle datas delivered via tws or gateway, `Wrapper` in demo is a default implement that just output data to std.
-[Go to IbWrapper](https://github.com/hadrianl/ibapi/blob/83846bf1194bbdc4f039c8c66033f717e015e9fc/wrapper.go#L11)
+[Go to IbWrapper](https://github.com/sucsessyan/ibapi/blob/83846bf1194bbdc4f039c8c66033f717e015e9fc/wrapper.go#L11)
 
 1. **implement** your own `IbWrapper`
 2. **connect** to TWS or Gateway
@@ -30,7 +30,7 @@ Implement `IbWrapper` to handle datas delivered via tws or gateway, `Wrapper` in
 
 ```golang
 import (
-    . "github.com/hadrianl/ibapi"
+    . "github.com/sucsessyan/ibapi"
     "time"
 )
 
@@ -77,7 +77,7 @@ func main(){
 
 ```golang
 import (
-    . "github.com/hadrianl/ibapi"
+    . "github.com/sucsessyan/ibapi"
     "time"
     "context"
 )
